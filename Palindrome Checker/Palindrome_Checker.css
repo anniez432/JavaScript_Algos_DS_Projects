@@ -1,0 +1,41 @@
+/* FILE HEADER
+This is the first project I completed for this course. It determines
+if a user's input is a palindrome.
+*/
+body{
+    background-color: #8B0000;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 90vh;
+  }
+  
+  h1{
+    text-align: center;
+    color: pink;
+    
+  }
+  
+  form{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  input, button{
+    border-radius: 5px;
+    font-family: Times New Roman;
+  }
+  
+  button{
+    background-color: pink;
+  }
+  
+  #result{
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  

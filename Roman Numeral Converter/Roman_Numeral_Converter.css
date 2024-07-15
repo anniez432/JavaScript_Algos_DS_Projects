@@ -1,0 +1,55 @@
+/* FILE HEADER
+This project converts the user's input to a Roman Numeral.
+*/
+:root{
+    --navy: #000080;
+    --purple: #CBC3E3
+  }
+  
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--purple);
+  }
+  
+  h1{
+    text-align: center;
+    padding-top: 10vh;
+    color: var(--navy);
+  }
+  
+  form{
+    border: 5px solid var(--navy);
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  button{
+    color: var(--purple);
+    background: var(--navy);
+    border-radius: 5px;
+  }
+  
+  input{
+    color: var(--navy);
+    border-radius: 5px;
+  }
+  
+  #output{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    border: 5px solid var(--navy);
+    text-align: center;
+  color: var(--navy);
+  border-radius: 10px;
+    height: 7vh;
+    width: 30vh;
+    font-weight: emphasis;
+    margin-top: 2vh;
+  }

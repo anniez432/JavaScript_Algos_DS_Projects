@@ -1,0 +1,75 @@
+/* FILE HEADER
+This project determines if the user's input is a valid US phone number.
+*/
+:root{
+    --peach: #FFE5B4;
+    --pale-orange: #FC7F03;
+    --grey: #d3d3d3;
+  }
+  
+  body{
+  background-color: var(--peach);
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  h1{
+    color: var(--pale-orange);
+    text-align: center;
+  }
+  
+  form{
+    text-align: center;
+    margin-top: 2vh;
+    border: 2vh solid black;
+    border-radius: 20px;
+    background-color: black;
+    width: 30vh;
+    height: 50vh;
+  }
+  
+  .button{
+    background-color: var(--pale-orange);
+    border: var(--pale-orange);
+    color: var(--peach);
+    font: Verdana;
+    margin-top: 1vh;
+    width: 8vh;
+    height: 3vh;
+    border-radius: 5px;
+  }
+  
+  input{
+    border: 0.7vh solid var(--pale-orange);
+    height: 7vh;
+    width: 25vh;
+    border-radius: 10px;
+    font-size: 3vh;
+    color: var(--pale-orange);
+  }
+  
+  #screen{
+    background-color: var(--grey);
+    height: 41vh;
+    width: 26vh;
+    padding: 2vh;
+    border-radius: 15px;
+    margin-top: 1.5vh;
+  }
+  
+  #instructions{
+    color: var(--pale-orange);
+  }
+  
+  #results-div{
+    overflow: auto;
+    width:25vh;
+    height:22vh;
+  }
+  
+  #check-btn{
+    margin-right: 2vh;
+  }
